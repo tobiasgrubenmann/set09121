@@ -55,7 +55,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 <!-- .slide: data-background="assets/images/players.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
 
-- ## Players
+- **Players**
 - Objectives
 - Procedures
 - Rules
