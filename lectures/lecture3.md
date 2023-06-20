@@ -92,17 +92,15 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 # Player Interaction Patterns
 
-- A **Player Interaction Pattern** helps us define how players play  the games.
-
+- A **Player Interaction Pattern** helps us define how players play the games.
 - There are seven key types: <!-- .element: class="fragment" -->
-    - Single-player versus the game. <!-- .element: class="fragment" -->
-    - Multiple individual players versus the game. <!-- .element: class="fragment" -->
-    - Player versus player. <!-- .element: class="fragment" -->
-    - Unilateral competition. <!-- .element: class="fragment" -->
-    - Multilateral competition. <!-- .element: class="fragment" -->
-    - Cooperative play. <!-- .element: class="fragment" -->
-    - Team competition. <!-- .element: class="fragment" -->
-- What about the games you normally play? What are the common interaction patterns that you engage with? <!-- .element: class="fragment" -->
+    - Single-player versus the game. ![SinglePlayerVersusGame](assets/images/SinglePlayerVersusGame.png) <!-- .element: class="fragment" -->
+    - Multiple individual players versus the game. ![MultipleIndividualsVsGame](assets/images/MultipleIndividualsVsGame.png) <!-- .element: class="fragment" -->
+    - Player versus player. ![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) <!-- .element: class="fragment" -->
+    - Unilateral competition. ![UnilateralCompetition](assets/images/UnilateralCompetition.png) <!-- .element: class="fragment" -->
+    - Multilateral competition. ![MultilateralCompetition](assets/images/MultilateralCompetition.png) <!-- .element: class="fragment" -->
+    - Cooperative play. ![CooperativePlay](assets/images/CooperativePlay.png) <!-- .element: class="fragment" -->
+    - Team competition. ![TeamCompetition](assets/images/TeamCompetition.png) <!-- .element: class="fragment" -->
 
 
 ---
