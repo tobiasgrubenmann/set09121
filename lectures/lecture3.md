@@ -231,18 +231,26 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 # Common Objective Types
 
-- There is a collection of common objective types:
-    - Capture / destroy
-    - Chase
-    - Race
-    - Alignment
-    - Rescue / escape
-    - Forbidden act
-    - Construction
-    - Exploration
-    - Solution
-    - Outwit
-- Again, see Fullerton for more information.
+- Capture  <!-- .element: class="fragment" -->
+    - Take or destroy soemthing from the oponent.  <!-- .element: class="fragment" -->
+- Chase  <!-- .element: class="fragment" -->
+    - Catch an opponunt or elude one.  <!-- .element: class="fragment" -->
+- Race <!-- .element: class="fragment" -->
+    - Reach the goal before all other players. <!-- .element: class="fragment" -->
+- Alignment <!-- .element: class="fragment" -->
+    - Arrange pieces in certain configurations or categories. <!-- .element: class="fragment" -->
+- Rescue / escape <!-- .element: class="fragment" -->
+    - Get a designated unit to safety. <!-- .element: class="fragment" -->
+- Forbidden act <!-- .element: class="fragment" -->
+    - Try to make other players perform a forbidden action (laughing, say a word, etc.). <!-- .element: class="fragment" -->
+- Construction <!-- .element: class="fragment" -->
+    - Build, maintain, and manage objects. <!-- .element: class="fragment" -->
+- Exploration <!-- .element: class="fragment" -->
+    - Explore different game areas. <!-- .element: class="fragment" -->
+- Solution <!-- .element: class="fragment" -->
+    - Solve a problem or puzzle. <!-- .element: class="fragment" -->
+- Outwit <!-- .element: class="fragment" -->
+    - Gain and use knowledge to defeat the other players. <!-- .element: class="fragment" -->
 
 ---
 
