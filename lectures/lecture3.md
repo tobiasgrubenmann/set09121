@@ -94,16 +94,71 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 - A **Player Interaction Pattern** helps us define how players play the games.
 - There are seven key types: <!-- .element: class="fragment" -->
-    - Single-player versus the game.
-    ![SinglePlayerVersusGame](assets/images/SinglePlayerVersusGame.png) <!-- .element: class="fragment" -->
-    - Multiple individual players versus the game.
-    ![MultipleIndividualsVsGame](assets/images/MultipleIndividualsVsGame.png) <!-- .element: class="fragment" -->
-    - Player versus player. ![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) <!-- .element: class="fragment" -->
-    - Unilateral competition. ![UnilateralCompetition](assets/images/UnilateralCompetition.png) <!-- .element: class="fragment" -->
-    - Multilateral competition. ![MultilateralCompetition](assets/images/MultilateralCompetition.png) <!-- .element: class="fragment" -->
-    - Cooperative play. ![CooperativePlay](assets/images/CooperativePlay.png) <!-- .element: class="fragment" -->
-    - Team competition. ![TeamCompetition](assets/images/TeamCompetition.png) <!-- .element: class="fragment" -->
+    - Single-player versus the game. <!-- .element: class="fragment" -->
+    - Multiple individual players versus the game. <!-- .element: class="fragment" -->
+    - Player versus player. <!-- .element: class="fragment" -->
+    - Unilateral competition. <!-- .element: class="fragment" -->
+    - Multilateral competition. <!-- .element: class="fragment" -->
+    - Cooperative play. <!-- .element: class="fragment" -->
+    - Team competition. <!-- .element: class="fragment" -->
 
+---
+
+# Single-player versus the game
+
+- A single player competes against the game system.
+
+![SinglePlayerVersusGame](assets/images/SinglePlayerVersusGame.png)
+
+---
+
+# Multiple individual players versus the game
+
+- Multiple players competes against the game system.
+- They do not compete against each other and the action is not directed at other players.
+
+![MultipleIndividualsVsGame](assets/images/MultipleIndividualsVsGame.png)
+
+---
+
+# Player versus player
+
+- Two players directly compete.
+- Inside games, the term "Player versus Player" might be used differently.
+
+![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) 
+
+---
+
+# Unilateral competition
+
+- Two or more players compete against one single player.
+
+![UnilateralCompetition](assets/images/UnilateralCompetition.png)
+
+---
+
+# Multilateral competition
+
+- Three or more players compete against each other.
+
+![MultilateralCompetition](assets/images/MultilateralCompetition.png)
+
+---
+
+# Cooperative play.
+
+- Two or more players cooperate against the game system.
+
+![CooperativePlay](assets/images/CooperativePlay.png)
+
+---
+
+# Team competition.
+
+- Two or more groups compete against each other.
+
+![TeamCompetition](assets/images/TeamCompetition.png)
 
 ---
 
