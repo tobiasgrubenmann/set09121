@@ -5,9 +5,7 @@ tags: [Lecture]
 permalink:  lecture3.html
 summary: lecture3
 layout: presentation
-presentationTheme: '/assets/css/napier.css' 
-output: html_document
-    fig_caption: true
+presentationTheme: '/assets/revealJS/css/theme/napier.css' 
 ---
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
@@ -31,41 +29,29 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 - Read Chapter 3 on Formal Elements.
 
-- Physical books in the library & a digital copy through Safari
+- Digital copies are available in the library.
 ![GameDesignWorkshopBook](assets/images/gdw_book.jpg)
-
 
 ---
 
 # What are the Formal Elements of Games?
 
-- Fullerton defines eight elements.
- -  Players
- -  Objectives
- -  Procedures
- -  Rules
- -  Resources
- -  Conflict
- -  Boundaries
- -  Outcome
-
+- Structure of the game. Without them, the game is not a game anymore.
+- Fullerton defines eight elements:
+    -  Players
+    -  Objectives
+    -  Procedures
+    -  Rules
+    -  Resources
+    -  Conflict
+    -  Boundaries
+    -  Outcome
 - The Formal Elements help us define games from a design perspective
 - ** We can also use these elements to scope the technical features**
 
-
 ---
 
-<!-- .slide: data-background="assets/images/players.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left; strong { color : #CC002A ;}" -->
-
-- **Players**
-- Objectives
-- Procedures
-- Rules
-- Resources
-- Conflict
-- Boundaries
-- Outcome
-
+# Players
 
 ---
 
@@ -77,18 +63,18 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
     - Cinemas dim their lights. <!-- .element: class="fragment" -->
     - A book uses a cover. <!-- .element: class="fragment" -->
     - A game has a title screen or introduction video. <!-- .element: class="fragment" -->
-- What about the games you play? What made you buy them? <!-- .element: class="fragment" -->
 
 
 ---
 
-# Social Games
+# Mulitplayer games
 
-- What about a game in an exhibit space? Where is the invitation?
-
-- What happens if people join in without invitation?
-
-- Any examples from games you play?
+- The invitation to play can become quite complicated in multiplayer games.
+- Can you name unique challenges when inviting players to a multiplayer online game?
+    - You need to check how many players want to join and how many are needed. <!-- .element: class="fragment" -->
+    - Are all of them ready? <!-- .element: class="fragment" -->
+    - Which role is assigned to which player? <!-- .element: class="fragment" -->
+    - Are there any teams? <!-- .element: class="fragment" -->
 
 ---
 
@@ -130,6 +116,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) 
 
+(Imaage source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+
 ---
 
 # Unilateral competition
@@ -137,6 +125,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 - Two or more players compete against one single player.
 
 ![UnilateralCompetition](assets/images/UnilateralCompetition.png)
+
+(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
 
 ---
 
@@ -146,6 +136,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![MultilateralCompetition](assets/images/MultilateralCompetition.png)
 
+(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+
 ---
 
 # Cooperative play.
@@ -153,6 +145,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 - Two or more players cooperate against the game system.
 
 ![CooperativePlay](assets/images/CooperativePlay.png)
+
+(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
 
 ---
 
@@ -162,72 +156,67 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![TeamCompetition](assets/images/TeamCompetition.png)
 
+(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+
 ---
 
-# Guess the Interaction Pattern
+# Example: Witcher 3
 
-![image](assets/images/witcher3.jpg)<!-- .element height="40%" width="45%" -->
-![image](assets/images/wow.jpg)<!-- .element height="40%" width="45%" -->
+- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
 
-![image](assets/images/hearthstone.jpg) <!-- .element height="40%" width="45%" -->
-![image](assets/images/overwatch.jpg) <!-- .element height="40%" width="45%" -->
+![Wither3](assets/images/witcher3.jpg)<!-- .element height="60%" width="45%" -->
 
+- Single-player versus the game <!-- .element: class="fragment" -->
+
+---
+
+# Example: World of Warcraft
+
+- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
+
+![WorldOfWarcraft](assets/images/wow.jpg)<!-- .element height="60%" width="45%" -->
+
+- Multiple individual players versus the game. (When I decide to play alone.) <!-- .element: class="fragment" -->
+- Player versus player. (When I decide to engage in PvP against a single other player.) <!-- .element: class="fragment" -->
+- Cooperative play. (When I play with others from the same faction.) <!-- .element: class="fragment" -->
+- Team competition. (When I enter a battleground or certain PvP modes.) <!-- .element: class="fragment" -->
+
+---
+
+# Example: Fortnite
+
+- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
+
+![Fortnite](assets/images/fortnite_win.jpg)<!-- .element height="60%" width="45%" -->
+
+- Multilateral competition <!-- .element: class="fragment" -->
+- Team competition <!-- .element: class="fragment" -->
 
 ---
 
 # Player Roles
 
-- You need to define what the player's task is in the game.
-- Traditional board and card games had everyone with the same role, more or less.
-    - Some players had multiple roles -- e.g. Dungeons and Dragons. <!-- .element: class="fragment" -->
-- Video games follow this tradition. <!-- .element: class="fragment" -->
-    - Again, there are exceptions such as Team Fortress 2, Neverwinter Nights, etc. <!-- .element: class="fragment" -->
-- Roles can also be defined by how the players react to the rules and procedures of the game. <!-- .element: class="fragment" -->
-    - Players can be collectors, explorers, killers, etc. <!-- .element: class="fragment" -->
-    - See Fullerton for further discussion. <!-- .element: class="fragment" -->
-    - Consider the type of player that you are aiming for. <!-- .element: class="fragment" -->
-
+- You need to define what the player's task is in the game. <!-- .element: class="fragment" -->
+- Some games offer different roles for the player to choose from. <!-- .element: class="fragment" -->
+    - A Game Master in Dungeons and Dragons has a different role than the other players. <!-- .element: class="fragment" -->
+    - One team member might be the party leader. <!-- .element: class="fragment" -->
+- Different roles might have different rules associated with them. <!-- .element: class="fragment" -->
 
 ---
 
-<!-- .slide: data-background="assets/images/fortnite_win.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
-
-- Players
-- ** -- Objectives**
-- Procedures
-- Rules
-- Resources
-- Conflict
-- Boundaries
-- Outcome
+# Objectives
 
 ---
 
 # Objectives: providing drive and challenge to the player
 
-- Players are the heart of the game experience, objectives drive the experience.
-- **Objectives** provide a challenge to the player that should be achievable.
+- Players are the heart of the game experience, objectives drive the experience. <!-- .element: class="fragment" -->
+- Objectives provide a challenge to the player that should be achievable. <!-- .element: class="fragment" -->
 - Objectives also set the overall feel of the game: <!-- .element: class="fragment" -->
     - FPS: killing and survival. <!-- .element: class="fragment" -->
-    - RPG: exploration. <!-- .element: class="fragment" -->
+    - The Sims: Manage the lives of simulated people. <!-- .element: class="fragment" -->
 - Objectives may also be made up of sub-objectives. <!-- .element: class="fragment" -->
     - Side quests are similar, but normally distinct. <!-- .element: class="fragment" -->
-
-
-
----
-
-# Fullerton: six questions for objectives
-
-- Fullerton poses six questions to help determine the objectives of a game:
-    - What are some of the objectives of the games you have played? <!-- .element: class="fragment" -->
-    - What impact do these objectives have on the tone of the game? <!-- .element: class="fragment" -->
-    - Do certain genres of play lend themselves to certain objectives? <!-- .element: class="fragment" -->
-    - What about multiple objectives? <!-- .element: class="fragment" -->
-    - Do objectives have to be explicit? <!-- .element: class="fragment" -->
-    - What about player determined objectives? <!-- .element: class="fragment" -->
-- You should pose these questions to yourself when coming up with your game idea. <!-- .element: class="fragment" -->
-
 
 ---
 
@@ -267,27 +256,13 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![SuperMarioBros](assets/images/mario.jpg) <!-- .element height="60%" width="45%" -->
 
-<font size=3>(Source: https://en.wikipedia.org/wiki/File:NES_Super_Mario_Bros.png)</font>
-
 - Saving the princess?
 - Reaching the end of the level?
 - Jump on enemies?
 
-
 ---
 
-
-<!-- .slide: data-background="assets/images/ed_controls.png" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
-
-- Players
-- Objectives
-- ** -- Procedures**
-- Rules
-- Resources
-- Conflict
-- Boundaries
-- Outcome
-
+# Procedures
 
 ---
 
@@ -327,16 +302,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ---
 
-<!-- .slide: data-background="assets/images/portal2.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
-
-- Players
-- Objectives
-- Procedures
-- ** -- Rules**
-- Resources
-- Conflict
-- Boundaries
-- Outcome
+# Rules
 
 ---
 
@@ -385,18 +351,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ---
 
-<!-- .slide: data-background="assets/images/blands_inventory.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
-
-
-- Players
-- Objectives
-- Procedures
-- Rules
-- ** -- Resources**
-- Conflict
-- Boundaries
-- Outcome
-
+# Resources
 
 ---
 
@@ -448,17 +403,7 @@ Note any similarities, particularly in games of the same genre.
 
 ---
 
-<!-- .slide: data-background="https://i.imgur.com/nAfAZLr.gif" style="background-color: rgba(0, 0, 0, 0.5); color: white; text-align: left;" -->
-
-- Players
-- Objectives
-- Procedures
-- Rules
-- Resources
-- ** -- Conflict**
-- Boundaries
-- Outcome
-
+# Conflict
 
 ---
 
@@ -489,18 +434,7 @@ Note any similarities, particularly in games of the same genre.
 
 ---
 
-<!-- .slide: data-background="https://i.redd.it/opkdxg3ag1my.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white;" -->
-
-
-- Players
-- Objectives
-- Procedures
-- Rules
-- Resources
-- Conflict
-- ** -- Boundaries**
-- Outcome
-
+# Boundaries
 
 ---
 
@@ -518,17 +452,7 @@ Note any similarities, particularly in games of the same genre.
 
 ---
 
-<!-- .slide: data-background="https://i.imgur.com/pS3Pk58.jpg" style="background-color: rgba(0, 0, 0, 0.5); color: white;" -->
-
-- Players
-- Objectives
-- Procedures
-- Rules
-- Resources
-- Conflict
-- Boundaries
-- ** -- Outcome**
-
+# Outcome
 
 ---
 
