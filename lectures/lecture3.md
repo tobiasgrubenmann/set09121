@@ -25,11 +25,11 @@ School of Computing. Edinburgh Napier University
 
 # Recommended Reading
 
-Game Design Workshop. 3rd Edition. Fullerton (2014).
+Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 
 - Read Chapter 3 on Formal Elements.
-
 - Digital copies are available in the library.
+
 ![GameDesignWorkshopBook](assets/images/gdw_book.jpg)
 
 ---
@@ -98,6 +98,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![SinglePlayerVersusGame](assets/images/SinglePlayerVersusGame.png)
 
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
+
 ---
 
 # Multiple individual players versus the game
@@ -106,6 +108,8 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 - They do not compete against each other and the action is not directed at other players.
 
 ![MultipleIndividualsVsGame](assets/images/MultipleIndividualsVsGame.png)
+
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
@@ -116,7 +120,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) 
 
-(Imaage source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
@@ -126,7 +130,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![UnilateralCompetition](assets/images/UnilateralCompetition.png)
 
-(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
@@ -136,7 +140,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![MultilateralCompetition](assets/images/MultilateralCompetition.png)
 
-(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
@@ -146,7 +150,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![CooperativePlay](assets/images/CooperativePlay.png)
 
-(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
@@ -156,13 +160,13 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ![TeamCompetition](assets/images/TeamCompetition.png)
 
-(Image source: T.Fullerton, C. Swain and S. Hoffman. Game Design Workshop. 3rd Edition, 2014.)
+(Image source: T.Fullerton. Game Design Workshop. 4th Edition, 2019.)
 
 ---
 
 # Example: Witcher 3
 
-- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
+- What is the Player Interaction Pattern?
 
 ![Wither3](assets/images/witcher3.jpg)<!-- .element height="60%" width="45%" -->
 
@@ -172,20 +176,20 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 # Example: World of Warcraft
 
-- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
+- What is the Player Interaction Pattern?
 
 ![WorldOfWarcraft](assets/images/wow.jpg)<!-- .element height="60%" width="45%" -->
 
-- Multiple individual players versus the game. (When I decide to play alone.) <!-- .element: class="fragment" -->
-- Player versus player. (When I decide to engage in PvP against a single other player.) <!-- .element: class="fragment" -->
-- Cooperative play. (When I play with others from the same faction.) <!-- .element: class="fragment" -->
-- Team competition. (When I enter a battleground or certain PvP modes.) <!-- .element: class="fragment" -->
+- Multiple individual players versus the game. <!-- .element: class="fragment" -->
+- Player versus player. <!-- .element: class="fragment" -->
+- Cooperative play. <!-- .element: class="fragment" -->
+- Team competition. <!-- .element: class="fragment" -->
 
 ---
 
 # Example: Fortnite
 
-- What is the Player Interaction Pattern? (Single-player versus the game, Multiple individual players versus the game, Player versus player, Unilateral competition, Multilateral competition, Cooperative play, Team competition)
+- What is the Player Interaction Pattern?
 
 ![Fortnite](assets/images/fortnite_win.jpg)<!-- .element height="60%" width="45%" -->
 
@@ -258,7 +262,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 - Saving the princess?
 - Reaching the end of the level?
-- Jump on enemies?
+- Jumping on enemies?
 
 ---
 
@@ -266,7 +270,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ---
 
-# Procedures: how we interact with and control the game
+# Procedures: How we Interact with and Control the Game
 
 - **Procedures** describe how we interact with the game world and how we can act within the game world.
 - Video games typically define procedures via the input control mechanisms.
@@ -290,11 +294,9 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 # System Procedures
 
 - Video games are complex systems.
-- Numerous background processes are running in a game.
+- Numerous procedures are running behind the scenes to respond to player actions.
     - Compare Dungeons and Dragons to a video game RPG.
-- Physics, AI, etc. are all procedures within a game.
-- The game engine we are developing will feature these background procedures.
-- Systems are examined in the next lecture.
+- Example: Calculating the damage based on attributes and random rolls.
 
 ![image](assets/images/dnd.jpg) <!-- .element width="40%"  -->
 ![image](assets/images/neverwinter.jpg) <!-- .element width="40%"  -->
@@ -306,48 +308,40 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 ---
 
-# Rules: defining objects and actions
+# Rules: Defining Objects and Restric Actions
 
-- **Rules** define the objects and their possible actions in the game.
-
-- Fullerton again poses some questions for defining rules: 
-    - How do players learn the rules? <!-- .element: class="fragment" -->
-    - How are the rules enforced? <!-- .element: class="fragment" -->
-    - What kinds of rules work best in certain situations? <!-- .element: class="fragment" -->
-    - Are there patterns to rule sets? <!-- .element: class="fragment" -->
-    - What can we learn from these patterns? <!-- .element: class="fragment" -->
-- Consider the rules for the game you want to develop: <!-- .element: class="fragment" -->
-    - Are your game rules obvious, or do you have to provide instructions? <!-- .element: class="fragment" -->
-    - Are your rules correct for the type of gameplay experience you are aiming for? <!-- .element: class="fragment" -->
+- **Rules** define the objects and restrict actions in the game.
+- In chess, the rules define differen objects: <!-- .element: class="fragment" -->
+    - King: Can only move one tile in any direction. <!-- .element: class="fragment" -->
+    - Bishop: Can only move diagonal. <!-- .element: class="fragment" -->
+- In a RTS game, rules define different unit types: <!-- .element: class="fragment" -->
+    - A tank might have more HP than infantry. <!-- .element: class="fragment" -->
+    - The type and amount of damage might be different. <!-- .element: class="fragment" -->
+- A rule can restrict what you can do in a city builder: <!-- .element: class="fragment" -->
+    - You can only build a building if you have enough money. <!-- .element: class="fragment" -->
+    - You can only build an airport when you reached a population of 100 000. <!-- .element: class="fragment" -->
 
 ---
 
-# Defining Objects and Actions
+# Example: Rules Defining a shotgun
 
-- Rules can help us define the game objects within our game world.
-    - We will discuss entities next week.
 - Consider a shotgun in a FPS:
     - Cost: $500, Damage: 20 <!-- .element: class="fragment" -->
     - Spread: 10, Range: 5 <!-- .element: class="fragment" -->
     - Ammo: 2, Magazine: 12 <!-- .element: class="fragment" -->
-- We can directly implement this idea in our game -- it is just an object definition. <!-- .element: class="fragment" -->
 - We can also use rules to restrict certain actions for progression purposes. <!-- .element: class="fragment" -->
-    - For example: Assassin's Creed series, Batman Arkham series.
+    - The shotgun will be available for purchase only after finishing chapter 1 of the campaign.
 - Providing all capabilities at once can confuse and frustrate the player. <!-- .element: class="fragment" -->
-
 
 ---
 
-# Determining Effects
+# Rules Determining Effects
 
-- Rules that trigger events or effects are very useful when
-    considering the procedures of our game.
+- Rules that trigger events or effects are very useful when considering the procedures of our game.
 - We can boil down such rules to a collection of `if` statements:
     - `if player’s health == 0 then player dies.`
-    - `if player pickup apple; health += 10.`
+    - `if player picks up apple then health += 10.`
     - etc.
-- It is likely that most of your rules will be effect based.
-
 
 ---
 
@@ -362,44 +356,28 @@ A **resource** is an asset that provides the player with an advantage, allows th
 
 
 - Resources are ubiquitous in games:
- - Monopoly has money and property.
- - Command & Conquer has Tiberium.
- - Halo has health, ammunition, and shields.
+    - Monopoly has money and property.
+    - Command & Conquer has Tiberium.
+    - Halo has health, ammunition, and shields.
 
  ![BorderlandsLootBox](http://lootmaster.weebly.com/uploads/3/8/1/3/38139257/7052736.jpg) <!-- .element height="250px" -->
  ![UThealthPack](assets/images/uthealthpack.jpg) <!-- .element height="250px" -->
 
 ---
 
-# Resource Types
+# Examples of Resource Types
 
+Try to name some examples of resources.
 
-**Obvious Resources**
-
-- Lives
-- Units
-- Health
-- Currency
-- Inventory
-- Special terrain
-
-
-**Not Obvious Resources**
-
-- Actions
-- Power-ups
-- Time
-
-
-
----
-
-# List Resources in the Games You Play 
-
-List the five games you have played most recently and list the resources available in each. 
-
-Note any similarities, particularly in games of the same genre.
-
+- Lives <!-- .element: class="fragment" -->
+- Units <!-- .element: class="fragment" -->
+- Health <!-- .element: class="fragment" -->
+- Currency <!-- .element: class="fragment" -->
+- Inventory <!-- .element: class="fragment" -->
+- Special terrain <!-- .element: class="fragment" -->
+- Actions <!-- .element: class="fragment" -->
+- Power-ups <!-- .element: class="fragment" -->
+- Time <!-- .element: class="fragment" -->
 
 ---
 
@@ -407,30 +385,30 @@ Note any similarities, particularly in games of the same genre.
 
 ---
 
-# Conflict: the contradiction in objectives, procedures, rules, and resources
+# Conflict: Clash between Objectives, Procedures, Rules, and Resources
 
-- **Conflict** occurs due to the contradiction between the objectives, the procedures, the rules, and the resources.
+- **Conflict** occurs due to a clash between the objectives, the procedures, the rules, and the resources.
     - A great example is golf.
-    - The objective is simple: put the ball in the hole ...
-    - ...but the hole and ball are small ...
-    - ...and you can only move the ball with a little stick ...
-    - ...and the hole is away over there!
-- Conflict increases challenge, which increases the fun.
-- Some Conflict examples:
+    - The objective is simple: put the ball in the hole ... <!-- .element: class="fragment" -->
+    - ...but the hole and ball are small ... <!-- .element: class="fragment" -->
+    - ...and you can only move the ball with a little stick ... <!-- .element: class="fragment" -->
+    - ...and the hole is away over there! <!-- .element: class="fragment" -->
+- Conflict increases the challenge, which increases the fun. <!-- .element: class="fragment" -->
+- Some Conflict examples: <!-- .element: class="fragment" -->
     - Obstacles: physical or conceptual.
     - Opponents: NPCs or other players.
     - Dilemmas: putting real choice in a game.
-
-
 ---
 
-# Conflict
+# Example: Starcraft 2
 
-- It is **NOT** just "My players will shoot something".
-- How will they shoot the thing?
-- What makes it possible?
-- What makes it difficult?
-- Is there a challenge to it? Where does it come from?
+- What is the conflict here?
+
+ ![Starcraft2](assets/images/Starcraf2.png)
+
+ - Obstacles: Limits on how many units you can build. <!-- .element: class="fragment" -->
+ - Opponents: AI or other player. <!-- .element: class="fragment" -->
+ - Dilemmas: On what unit or tech should I spend my resources? <!-- .element: class="fragment" -->
 
 ---
 
@@ -441,12 +419,12 @@ Note any similarities, particularly in games of the same genre.
 # Boundaries
 
 - **Boundaries** define where the game is taking place.
-- Games exist in a world where the formal elements exist.
+- Games exist in a world where the formal elements exist. <!-- .element: class="fragment" -->
     - Sometimes called the magic circle.
-- Boundaries can be physical.
+- Boundaries can be physical. <!-- .element: class="fragment" -->
     - The normal approach in video games.
     - Screen boundaries, 3D world boundaries, etc. are all examples of this.
-- Boundaries can be conceptual.
+- Boundaries can be conceptual. <!-- .element: class="fragment" -->
     - The players make an agreement to stay within the rules of the game.
 
 
@@ -476,10 +454,8 @@ Note any similarities, particularly in games of the same genre.
 
 # Try Describing a Game Using the Formal Elements
 
-- After class, try and describe a game (board, video, or social) using the vocabulary of formal elements.
-
+- After the class, try and describe a game (board, video, or social) using the vocabulary of formal elements.
 - Try to go into some real depth: it will help you understand games more.
-
 - Think about the formal elements whenever you play a game. Try and pick apart the individual elements of the game to get a better understanding of how it is put together.
 
 
@@ -487,11 +463,11 @@ Note any similarities, particularly in games of the same genre.
 
 # Summary
 
-- **Players**: who is playing our game?
-- **Objectives**: what is the goal of playing the game?
-- **Procedures**: how is the game played?
-- **Rules**: what are the restrictions on how the game is played?
-- **Resources**: what assets are available in the game?
+- **Players**: Who is playing our game?
+- **Objectives**: What is the goal of playing the game?
+- **Procedures**: How is the game played?
+- **Rules**: What are the restrictions on how the game is played?
+- **Resources**: What assets are available in the game?
 - **Conflict**: How do the objectives, procedures, rules, and resources constrain each other?
-- **Boundaries**: where is the game played?
-- **Outcome**: how is the game resolved?
+- **Boundaries**: Where is the game played?
+- **Outcome**: How is the game resolved?
