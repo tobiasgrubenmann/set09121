@@ -5,7 +5,7 @@ tags: [Lecture]
 permalink:  lecture3.html
 summary: lecture3
 layout: presentation
-presentationTheme: '/assets/revealJS/css/theme/napier.css' 
+presentationTheme: '/assets/css/napier.css' 
 ---
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
@@ -243,6 +243,11 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
     - Get a designated unit to safety. <!-- .element: class="fragment" -->
 - Forbidden act <!-- .element: class="fragment" -->
     - Try to make other players perform a forbidden action (laughing, say a word, etc.). <!-- .element: class="fragment" -->
+
+---
+
+# Common Objective Types (cont.)
+
 - Construction <!-- .element: class="fragment" -->
     - Build, maintain, and manage objects. <!-- .element: class="fragment" -->
 - Exploration <!-- .element: class="fragment" -->
