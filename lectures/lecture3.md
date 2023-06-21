@@ -81,14 +81,14 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 # Player Interaction Patterns
 
 - A **Player Interaction Pattern** helps us define how players play the games.
-- There are seven key types: <!-- .element: class="fragment" -->
-    - Single-player versus the game. <!-- .element: class="fragment" -->
-    - Multiple individual players versus the game. <!-- .element: class="fragment" -->
-    - Player versus player. <!-- .element: class="fragment" -->
-    - Unilateral competition. <!-- .element: class="fragment" -->
-    - Multilateral competition. <!-- .element: class="fragment" -->
-    - Cooperative play. <!-- .element: class="fragment" -->
-    - Team competition. <!-- .element: class="fragment" -->
+- There are seven key types:
+    - Single-player versus the game.
+    - Multiple individual players versus the game.
+    - Player versus player.
+    - Unilateral competition.
+    - Multilateral competition.
+    - Cooperative play.
+    - Team competition.
 
 ---
 
@@ -116,7 +116,7 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 # Player versus player
 
 - Two players directly compete.
-- Inside games, the term "Player versus Player" might be used differently.
+- Within games, the term "Player versus Player" might be used differently.
 
 ![PlayerVsPlayer](assets/images/PlayerVsPlayer.png) 
 
@@ -311,7 +311,7 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 # Rules: Defining Objects and Restric Actions
 
 - **Rules** define the objects and restrict actions in the game.
-- In chess, the rules define differen objects: <!-- .element: class="fragment" -->
+- In chess, the rules define different objects: <!-- .element: class="fragment" -->
     - King: Can only move one tile in any direction. <!-- .element: class="fragment" -->
     - Bishop: Can only move diagonal. <!-- .element: class="fragment" -->
 - In a RTS game, rules define different unit types: <!-- .element: class="fragment" -->
@@ -388,7 +388,7 @@ Try to name some examples of resources.
 # Conflict: Clash between Objectives, Procedures, Rules, and Resources
 
 - **Conflict** occurs due to a clash between the objectives, the procedures, the rules, and the resources.
-    - A great example is golf.
+- A great example is golf. <!-- .element: class="fragment" -->
     - The objective is simple: put the ball in the hole ... <!-- .element: class="fragment" -->
     - ...but the hole and ball are small ... <!-- .element: class="fragment" -->
     - ...and you can only move the ball with a little stick ... <!-- .element: class="fragment" -->
@@ -398,6 +398,7 @@ Try to name some examples of resources.
     - Obstacles: physical or conceptual.
     - Opponents: NPCs or other players.
     - Dilemmas: putting real choice in a game.
+
 ---
 
 # Example: Starcraft 2
