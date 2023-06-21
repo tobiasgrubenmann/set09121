@@ -263,7 +263,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 - What is the objective in Super Mario Bros?
 
-![SuperMarioBros](NES_Super_Mario_Bros.png) <!-- .element height="60%" width="45%" --> (Source: https://en.wikipedia.org/wiki/File:NES_Super_Mario_Bros.png)
+![SuperMarioBros](mario.jpg) <!-- .element height="60%" width="45%" --> (Source: https://en.wikipedia.org/wiki/File:NES_Super_Mario_Bros.png)
 
 - Saving the princess?
 - Reaching the end of the level?
