@@ -405,7 +405,7 @@ Try to name some examples of resources.
 
 - What is the conflict here?
 
- ![Starcraft2](assets/images/Starcraf2.png)
+ ![Starcraft2](assets/images/Starcraf2.png) <!-- .element height="60%" -->
 
  - Obstacles: Limits on how many units you can build. <!-- .element: class="fragment" -->
  - Opponents: AI or other player. <!-- .element: class="fragment" -->
