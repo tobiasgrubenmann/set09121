@@ -6,7 +6,8 @@ permalink:  lecture3.html
 summary: lecture3
 layout: presentation
 presentationTheme: '/assets/css/napier.css' 
-fig_caption: true
+output: html
+    fig_caption: true
 ---
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
