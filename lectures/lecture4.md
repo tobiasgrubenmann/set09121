@@ -32,14 +32,6 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 
 ![GameDesignWorkshopBook](assets/images/gdw_book.jpg)
 
-
----
-
-# Example -- Donkey Kong: what do you see? 
-
-
-<iframe width="760" height="515" src="https://www.youtube.com/embed/Pp2aMs38ERY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 
 # What is a System?
@@ -49,7 +41,7 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
     - Real, or a software one, like what we are going to build in the module.
 - An engine is a system with a particular objective.  <!-- .element: class="fragment" -->
     - That objective is to power some form of manual action.
-- We can apply our formal elements into thinking about systems. <!-- .element: class="fragment" -->
+- We can apply our formal elements when thinking about systems. <!-- .element: class="fragment" -->
 
  ![image](assets/images/engine.jpg)  <!-- .element width="50%"  -->
 
