@@ -50,10 +50,7 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 # Games as Systems
 
 - When we consider games as systems, we focuse on the following elements:
-    - **Objects** that interact with each other according to their... <!-- .element: class="fragment" -->
-    - ...**properties**... <!-- .element: class="fragment" -->
-    - ...**behaviors**... <!-- .element: class="fragment" -->
-    - ...and **relationships**. <!-- .element: class="fragment" -->
+    - **Objects** that interact with each other according to their **properties**, **behaviors**, **relationships**.
 
 ---
 
@@ -63,7 +60,7 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 - For example: an engine, steering wheel, and wheels interact together to allow a car to operate. <!-- .element: class="fragment" -->
 - The complexity of the underlying system is hidden behind an interface. For a car, this is the steering wheels and pedals. <!-- .element: class="fragment" -->
 - Objects are defined by their properties, behaviors, and relationship with each other. <!-- .element: class="fragment" -->
-- In games the most basic of object is usually called an **Entity**, Actor, or Game Object. <!-- .element: class="fragment" -->
+- In games the most basic of object is usually called an Entity, Actor, or Game Object. <!-- .element: class="fragment" -->
 - Almost everything in a game is an object. <!-- .element: class="fragment" -->
     - For example: players, opponents, environment. <!-- .element: class="fragment" -->
 
@@ -96,10 +93,10 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
     - The position of a piece might change at every turn.
 - More properties make the game more complex. <!-- .element: class="fragment" -->
     - More complex does not always mean better.
-- Some common properties include:
-    - Position. <!-- .element: class="fragment" -->
-    - Appearance. <!-- .element: class="fragment" -->
-    - A flag (bool) to indicate whether the object is alive.  <!-- .element: class="fragment" -->
+- Some common properties include: <!-- .element: class="fragment" -->
+    - Position.
+    - Appearance.
+    - A flag (bool) to indicate whether the object is alive.
 
 ---
 
@@ -151,8 +148,8 @@ Game Design Workshop. 4th Edition. Tracy Fullerton (2019).
 	- Blinky always goes for you <!-- .element: class="fragment" -->
 	- Pinky tries to get in front of you <!-- .element: class="fragment" -->
 	- Inky targets a space based on Blinky and your position <!-- .element: class="fragment" -->
-	- Clyde is there too (he gets scared!) <!-- .element: class="fragment" -->
-- Behaviours change based on game state <!-- .element: class="fragment" -->
+	- Clyde retreats when getting too close to the player. <!-- .element: class="fragment" -->
+- Behaviours change based on game state. <!-- .element: class="fragment" -->
 
 ---
 
@@ -173,7 +170,7 @@ https://dev.to/code2bits/pac-man-patterns--ghost-movement-strategy-pattern-1k1a
 - Some relationships between objects can be changed by the player. <!-- .element: class="fragment" -->
     - I can move the chess pieces to a different location.
 - Some relationships can be based on the current state.  <!-- .element: class="fragment" -->
-    - If character is evil then guards will chase on sight.
+    - If a character is wanted then guards will chase them on sight.
 
 ---
 
@@ -186,7 +183,6 @@ https://dev.to/code2bits/pac-man-patterns--ghost-movement-strategy-pattern-1k1a
 **Describe your favourite game as a system.** 
 
 Pick one of your favourite games and described the objects, their properties and their behaviours.
-
 
 Keep it abstract, but consider how you would program these.
 
@@ -237,7 +233,7 @@ Keep it abstract, but consider how you would program these.
 - Why is chess so much more interesting than tic-tac-toe?
     - Simple but different behavior for different pieces. <!-- .element: class="fragment" -->
     - Much larger range of possibilities. <!-- .element: class="fragment" -->
-    - Much more complex relationship between the pieces.  <!-- .element: class="fragment" -->
+    - Much more complex relationship between the pieces. <!-- .element: class="fragment" -->
 
 ---
 
@@ -247,20 +243,20 @@ Keep it abstract, but consider how you would program these.
 
 # Economies
 
-- In-game economies are often simplified compared to the real-world. <!-- .element: class="fragment" -->
-- **Bartering Economy**: Exchange goods for other goods. <!-- .element: class="fragment" -->
-- **Market Economy**: Have a currency which can be used to buy any good. <!-- .element: class="fragment" -->
-- Some economies even have inflation (MMOs) as a result of how the economy is designed. <!-- .element: class="fragment" -->
+- In-game economies are often simplified compared to the real-world.
+- **Bartering Economy**: Exchange goods for other goods.
+- **Market Economy**: Have a currency which can be used to buy any good.
+- Some economies even have inflation (MMOs) as a result of how the economy is designed.
 
 ---
 
 # Emergent Systems
 
-- Emergent systems exhibit behavior not explicitly programmed. The behavior emerges from the rules placed on the objects.
+- Emergent systems exhibit behavior not explicitly programmed. The behavior emerges from the rules placed on the objects. <!-- .element: class="fragment" -->
     - Birds flocking is such a behavior.
     - Very relevant to game AI.
-- Nature is full of such systems.
-- Examples include: Game of Life, Spore, The Sims.
+- Nature is full of such systems. <!-- .element: class="fragment" -->
+- Examples include: Game of Life, Spore, The Sims. <!-- .element: class="fragment" -->
 
  ![image](https://66.media.tumblr.com/303da0502e45b38484e73b174b3db9db/tumblr_nhte1rMwH01teec4eo2_500.gif)  <!-- .element width="35%"  -->
  ![image](https://media.indiedb.com/images/articles/1/182/181609/flock4.gif)  <!-- .element width="50%"  -->
@@ -271,12 +267,12 @@ Keep it abstract, but consider how you would program these.
 
 - What information is provided to the player about the system?  <!-- .element: class="fragment" -->
     - Hiding information encourages guessing, bluffing, deceiving.
- - What can the player control?  <!-- .element: class="fragment" -->
-     - This has a huge impact on the top-level experience of the game.
- - What feedback occurs within the system?  <!-- .element: class="fragment" -->
-     - Positive (reinforcing) feedback forces a system towards one extreme.
-     - Negative (balancing) feedback forces a system towards equilibrium. 
- - How do these considerations affect the gameplay?  <!-- .element: class="fragment" -->
+- What can the player control?  <!-- .element: class="fragment" -->
+    - This has a huge impact on the top-level experience of the game.
+- What feedback occurs within the system?  <!-- .element: class="fragment" -->
+    - Positive (reinforcing) feedback forces a system towards one extreme.
+    - Negative (balancing) feedback forces a system towards equilibrium. 
+- How do these considerations affect the gameplay?  <!-- .element: class="fragment" -->
 
 ---
 
@@ -287,8 +283,8 @@ Keep it abstract, but consider how you would program these.
     - It might not be possible to resolve a conflict.
 - Make sure the game is fair and balanced. <!-- .element: class="fragment" -->
 - Avoid dominant strategies (a strategy that is always the best irrespective of the game state) or overpowered items. <!-- .element: class="fragment" -->
- - Make sure it is fun and challenging. <!-- .element: class="fragment" -->
-     - Requires playtesting.
+- Make sure it is fun and challenging. <!-- .element: class="fragment" -->
+    - Requires playtesting.
 
 ---
 
