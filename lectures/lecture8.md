@@ -208,7 +208,11 @@ class Button : UIElement { // Leaf
 
 ![image](assets/images/iterator.png) <!-- .element width="80%"  -->
 
+(Source: https://en.wikipedia.org/wiki/Iterator_pattern)
+
 ---
+
+# Iterator Pattern 
 
 ```CS
 QuerySolution solution = QueryEngine.Query("SELECT name, address FROM customers");
@@ -235,11 +239,14 @@ while (solution.hasNext()) {
 ---
 
 # Mediator Pattern 
+
 ![image](assets/images/mediator.png) <!-- .element width="80%"  -->
 
 (Source: https://javadevcentral.com/mediator-design-pattern)
 
 ---
+
+# Mediator Pattern 
 
 ```CS
 class ChatRoom {
@@ -280,12 +287,15 @@ class User {
 ---
 
 # State Pattern 
+
 ![image](assets/images/state.png) <!-- .element width="80%"  -->
 
 (Source: https://en.wikipedia.org/wiki/State_pattern)
 
 
 ---
+
+# State Pattern 
 
 ```CS
 interface State {
@@ -326,6 +336,8 @@ class Enemy {
     - Games like Universe Sandbox allow the player to change the integration method at run-time.
 
 ---
+
+# Strategy Pattern
 
 ```CS
 interface Integrator {
@@ -373,6 +385,8 @@ class Simulator {
 (Source: https://en.wikipedia.org/wiki/Observer_pattern)
 
 ---
+
+# Observer Pattern 
 
 ```CS
 class EntityManager { // Subject
