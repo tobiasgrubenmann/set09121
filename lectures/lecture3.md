@@ -408,7 +408,7 @@ Try to name some examples of resources.
  ![Starcraft2](assets/images/Starcraf2.png) <!-- .element height="60%" width="45%" -->
 
  - Obstacles: Limits on how many units you can build. <!-- .element: class="fragment" -->
- - Opponents: AI or other player. <!-- .element: class="fragment" -->
+ - Opponents: AI or other players. <!-- .element: class="fragment" -->
  - Dilemmas: On what unit or tech should I spend my resources? <!-- .element: class="fragment" -->
 
 ---

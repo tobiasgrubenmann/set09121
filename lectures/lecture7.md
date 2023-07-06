@@ -257,7 +257,7 @@ Maps can be very helpful to get an overview of the gameworld.
 
 ---
 
-# Contents - Media List
+# Media List
 
 - You will need a list of the assets that are required by the art and sound team. <!-- .element: class="fragment" -->
 - Descriptions of these assets will need to be provided. <!-- .element: class="fragment" -->
