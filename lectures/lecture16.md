@@ -69,7 +69,7 @@ School of Computing. Edinburgh Napier University
 
 # Evaluating a Behavior Tree
 
-![image](assets/images/behavior_tree_traversal.gif) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_traversal.gif) <!-- .element width="100%" -->
 
 ---
 
@@ -97,7 +97,7 @@ School of Computing. Edinburgh Napier University
 
 # Example: Behavior Tree with 1 Action
 
-![image](assets/images/behavior_tree_1action.png) <!-- .element height="10%" width="45%" -->
+![image](assets/images/behavior_tree_1action.png) <!-- .element width="10%" -->
 
 ---
 
@@ -134,7 +134,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_selector.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_selector.png) <!-- .element width="45%" -->
 
 ---
 
@@ -152,7 +152,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_sequence.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_sequence.png) <!-- .element width="45%" -->
 
 ---
 
@@ -185,7 +185,7 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_selector.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_condition_selector.png) <!-- .element width="45%" -->
 
 ---
 
@@ -194,7 +194,7 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element width="45%" -->
 
 ---
 
@@ -222,7 +222,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_complex_example.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_complex_example.png) <!-- .element width="45%" -->
 
 ---
 
