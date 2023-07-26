@@ -97,7 +97,7 @@ School of Computing. Edinburgh Napier University
 
 # Example: Behavior Tree with 1 Action
 
-![image](assets/images/behavior_tree_1action.png) <!-- .element height="60%" width="45%" -->
+![image](assets/images/behavior_tree_1action.png) <!-- .element height="10%" width="45%" -->
 
 ---
 
