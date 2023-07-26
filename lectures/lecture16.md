@@ -47,7 +47,7 @@ School of Computing. Edinburgh Napier University
 
 - A Behavior Tree is a model for plan execution.
 - They are popular in games to model AI characters.
-- They consist of:
+- They consist of: <!-- .element: class="fragment" -->
     - A **root** node.
     - Branch nodes: **control** nodes and **decorator** nodes.
     - Leaf nodes: **action** nodes and **condition** nodes.
@@ -60,7 +60,7 @@ School of Computing. Edinburgh Napier University
 - The root will ask its child node about its current status.
 - The status of a node might depend on its children.
 - This results in a depth-first traversal.
-- A node's status can be:
+- A node's status can be: <!-- .element: class="fragment" -->
     - Success: The node has been successfully resolved.
     - Failure: The node has been unsuccessfully resolved.
     - Running: The node has not yet been resolved.
@@ -69,7 +69,7 @@ School of Computing. Edinburgh Napier University
 
 # Evaluating a Behavior Tree
 
-![image](assets/images/behavior_tree_traversal.gif)
+![image](assets/images/behavior_tree_traversal.gif) <!-- .element height="60%" -->
 
 ---
 
@@ -97,7 +97,7 @@ School of Computing. Edinburgh Napier University
 
 # Example: Behavior Tree with 1 Action
 
-![image](assets/images/behavior_tree_1action.png)
+![image](assets/images/behavior_tree_1action.png) <!-- .element height="60%" -->
 
 ---
 
@@ -134,11 +134,11 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_selector.png)
+![image](assets/images/behavior_tree_selector.png) <!-- .element height="60%" -->
 
 ---
 
-# Squence
+# Sequence
 
 - Evaluates each children until one is found that does **not** succeed and returns the status of this child node.
 - As soon as a node is found that returns **running** or **failure**, no further child nodes are evaluated.
@@ -148,11 +148,11 @@ School of Computing. Edinburgh Napier University
 
 ---
 
-# Example: Squence
+# Example: Sequence
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_sequence.png)
+![image](assets/images/behavior_tree_sequence.png) <!-- .element height="60%" -->
 
 ---
 
@@ -160,10 +160,10 @@ School of Computing. Edinburgh Napier University
 
 - Like the action node, the condition node is a leaf node.
 - A condition node does not change the state of the game world, unlike the action node.
-- Condition nodes test for something in the game world:
+- Condition nodes test for something in the game world: <!-- .element: class="fragment" -->
     - Is the enemy in sight?
     - Is the player on low health?
-- A condition returns:
+- A condition returns: <!-- .element: class="fragment" -->
     - **Success** if the test was successful.
     - **Failure** if the test failed.
     - **Running** if the test needs more time to determine the outcome.
@@ -185,7 +185,7 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_selector.png)
+![image](assets/images/behavior_tree_condition_selector.png) <!-- .element height="60%" -->
 
 ---
 
@@ -194,17 +194,17 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_sequence.png)
+![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element height="60%" -->
 
 ---
 
 # Decorator
 
 - Decorators have exactly one child.
-- They are somewhat similar to the Decorator Pattern in OOP (hence the name).
-- Their return value depends on the state of the child and on the specific type of decorator.
-- Decorators are used to change the behavior of a node.
-- There are many different types of decorators with very different use-cases.
+- They are somewhat similar to the Decorator Pattern in OOP (hence the name). <!-- .element: class="fragment" -->
+- Their return value depends on the state of the child and on the specific type of decorator. <!-- .element: class="fragment" -->
+- Decorators are used to change the behavior of a node. <!-- .element: class="fragment" -->
+- There are many different types of decorators with very different use-cases. <!-- .element: class="fragment" -->
 
 ---
 
@@ -218,11 +218,19 @@ School of Computing. Edinburgh Napier University
 
 ---
 
+# A More Complex Example
+
+- Can you describe in your own words what kind of behavior this tree represents?
+
+![image](assets/images/behavior_tree_complex_example.png) <!-- .element height="60%" -->
+
+---
+
 # Summary
 
 - Behavior Trees can be used to model AI behavior.
-- At each tick/update, the tree gets evaluated and returns a status.
-- A tree consist of nodes.
+- At each tick/update, the tree gets evaluated and returns a status. <!-- .element: class="fragment" -->
+- A tree consist of nodes. <!-- .element: class="fragment" -->
     - A node's status can be: Success, Failure, Running.
     - Branch nodes: control nodes and decorator nodes.
     - Leaf nodes: action nodes and condition nodes.
