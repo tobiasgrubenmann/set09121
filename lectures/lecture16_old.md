@@ -2,7 +2,7 @@
 title: "Lecture16"
 keywords: Lecture
 tags: [Lecture]
-permalink:  lecture16.html
+permalink:  lecture16_old.html
 summary: lecture16
 layout: presentation
 presentationTheme: '/assets/revealJS/css/theme/napier.css' 
