@@ -10,7 +10,7 @@ presentationTheme: '/assets/revealJS/css/theme/napier.css'
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
 
-# Lecture 16 - Behavioral Trees
+# Lecture 16 - Behavior Trees
 ### SET09121 - Games Engineering
 
 <br><br>
