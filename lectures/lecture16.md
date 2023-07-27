@@ -97,7 +97,7 @@ School of Computing. Edinburgh Napier University
 
 # Example: Behavior Tree with 1 Action
 
-![image](assets/images/behavior_tree_1action.png) <!-- .element width="10%" -->
+![image](assets/images/behavior_tree_1action.png) <!-- .element width="80%" -->
 
 ---
 
@@ -134,7 +134,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_selector.png) <!-- .element width="100%" -->
+![image](assets/images/behavior_tree_selector.png) <!-- .element width="80%" -->
 
 ---
 
@@ -152,7 +152,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_sequence.png) <!-- .element width="100%" -->
+![image](assets/images/behavior_tree_sequence.png) <!-- .element width="80%" -->
 
 ---
 
@@ -185,7 +185,7 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_selector.png) <!-- .element width="100%" -->
+![image](assets/images/behavior_tree_condition_selector.png) <!-- .element width="80%" -->
 
 ---
 
@@ -194,7 +194,7 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element width="100%" -->
+![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element width="80%" -->
 
 ---
 
@@ -222,7 +222,7 @@ School of Computing. Edinburgh Napier University
 
 - Can you describe in your own words what kind of behavior this tree represents?
 
-![image](assets/images/behavior_tree_complex.png) <!-- .element width="100%" -->
+![image](assets/images/behavior_tree_complex.png) <!-- .element width="80%" -->
 
 ---
 
