@@ -185,16 +185,16 @@ School of Computing. Edinburgh Napier University
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_selector.png) <!-- .element width="80%" -->
+![image](assets/images/behavior_tree_condition_selector.png) <!-- .element width="70%" -->
 
 ---
 
-# Example: Selector
+# Example: Sequence
 
 - Can you describe in your own words what kind of behavior this tree represents?
 - What would happen if the condition were missing?
 
-![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element width="80%" -->
+![image](assets/images/behavior_tree_condition_sequence.png) <!-- .element width="70%" -->
 
 ---
 
