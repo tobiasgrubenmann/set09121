@@ -16,7 +16,7 @@ presentationTheme: '/assets/revealJS/css/theme/napier.css'
 ### Welcome
 
 <br><br>
-Babis Koniaris
+Babis Koniaris/Tobias Grubenmann
 <br>
 (Original material by Kevin Chalmers/Sam Serrels/Thomas Methven)
 
@@ -94,7 +94,7 @@ School of Computing. Edinburgh Napier University
 # Structure – Lectures
 
 - Two one-hour lectures a week.  <!-- .element: class="fragment" -->
-    - Friday @ 9am-11am in G21  
+    - Wednesday @ 9am-11am, in D02   
 - Lectures will cover:  <!-- .element: class="fragment" -->
     - Game design concepts. 
     - Software engineering for games.  
@@ -107,7 +107,7 @@ School of Computing. Edinburgh Napier University
 # Structure – Practical Sessions
 
 - Two-hour practical session. <!-- .element: class="fragment" -->
-    - Friday @ 12pm (after the lectures)
+    - Wednesday @ 11am-13pm
 - Practicals take place in D02. Bring your laptop or use the lab PCs. <!-- .element: class="fragment" -->
 - Labs will help you develop the engine you need to use for the coursework. <!-- .element: class="fragment" -->
     - 2D development with SFML.
@@ -344,9 +344,10 @@ School of Computing. Edinburgh Napier University
 
 ### Contact details:
 
-MY  EMAIL 
 
-**b.koniaris@napier.ac.uk**
+Babis: **b.koniaris@napier.ac.uk**
+
+Tobias: **t.grubenmann@napier.ac.uk**
 
 
 - The best time to ask for help is during the practical sessions.
@@ -360,7 +361,6 @@ MY  EMAIL
 		
 - I hope you have fun during the module.
 - The module has been designed to be challenging but with effort everyone can succeed.
-- We brought this back as we thought it was fundamental for the Games Development students.
 - But for everyone else we hope you will learn:
     - How games work and how you can put them together.
     - How to do software engineering properly (from our point of view!)
